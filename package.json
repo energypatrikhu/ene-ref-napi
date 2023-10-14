@@ -27,15 +27,15 @@
 	"scripts": {
 		"docs": "node docs/compile",
 		"test": "nyc mocha --expose-gc",
-		"install": "ene-node-gyp-build",
+		"install": "node-gyp",
 		"prebuild": "prebuildify --napi --tag-armv",
 		"prepack": "prebuildify-ci download && ([ $(ls prebuilds | wc -l) = '5' ] || (echo 'Some prebuilds are missing'; exit 1))"
 	},
 	"dependencies": {
 		"debug": "^4.1.1",
-		"ene-node-gyp-build": "github:energypatrikhu/ene-node-gyp-build",
 		"get-symbol-from-current-process-h": "^1.0.2",
-		"node-addon-api": "^7.0.0"
+		"node-addon-api": "^7.0.0",
+		"node-gyp": "^9.4.0"
 	},
 	"devDependencies": {
 		"dox": "0.9.0",
