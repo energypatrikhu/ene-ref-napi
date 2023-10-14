@@ -27,7 +27,7 @@
 	"scripts": {
 		"docs": "node docs/compile",
 		"test": "nyc mocha --expose-gc",
-		"install": "node-gyp",
+		"install": "node-gyp rebuild",
 		"prebuild": "prebuildify --napi --tag-armv",
 		"prepack": "prebuildify-ci download && ([ $(ls prebuilds | wc -l) = '5' ] || (echo 'Some prebuilds are missing'; exit 1))"
 	},
