@@ -3,7 +3,7 @@
 
 * [[`33d46e71db`](https://github.com/node-ffi-napi/ref-napi/commit/33d46e71db)] - Update to jquery-3.4.1.min.js (Alan Ayoub) [#23](https://github.com/node-ffi-napi/ref-napi/pull/23)
 * [[`4b8f542c16`](https://github.com/node-ffi-napi/ref-napi/commit/4b8f542c16)] - **chore**: update marked to version 0.7.0 (greenkeeper[bot]) [#17](https://github.com/node-ffi-napi/ref-napi/pull/17)
-* [[`7137ebcfa1`](https://github.com/node-ffi-napi/ref-napi/commit/7137ebcfa1)] - **chore**: update ene-node-addon-api to version 2.0.0 (greenkeeper[bot]) [#21](https://github.com/node-ffi-napi/ref-napi/pull/21)
+* [[`7137ebcfa1`](https://github.com/node-ffi-napi/ref-napi/commit/7137ebcfa1)] - **chore**: update node-addon-api to version 2.0.0 (greenkeeper[bot]) [#21](https://github.com/node-ffi-napi/ref-napi/pull/21)
 
 1.4.2 / 2019-01-07
 ==================
@@ -13,7 +13,7 @@
 1.4.1 / 2019-01-07
 ==================
 
-* [[`f1827f3bdd`](https://github.com/node-ffi-napi/ref-napi/commit/f1827f3bdd)] - Update ene-node-addon-api dependency to ^1.6.2 (Anna Henningsen)
+* [[`f1827f3bdd`](https://github.com/node-ffi-napi/ref-napi/commit/f1827f3bdd)] - Update node-addon-api dependency to ^1.6.2 (Anna Henningsen)
 * [[`bf16e880fb`](https://github.com/node-ffi-napi/ref-napi/commit/bf16e880fb)] - chore(package): update marked to version 0.6.0 (#11) (greenkeeper[bot])
 * [[`bb92877339`](https://github.com/node-ffi-napi/ref-napi/commit/bb92877339)] - ***Revert*** "Update debug to 4.0.0" (Anna Henningsen)
 * [[`6fa4022605`](https://github.com/node-ffi-napi/ref-napi/commit/6fa4022605)] - Update debug to 4.0.0 (Anna Henningsen)
@@ -24,7 +24,7 @@
 * [[`0b35b34000`](https://github.com/node-ffi-napi/ref-napi/commit/0b35b34000)] - Explicitly test Node v4 (Anna Henningsen)
 * [[`74bbaa4cb6`](https://github.com/node-ffi-napi/ref-napi/commit/74bbaa4cb6)] - docs(readme): add Greenkeeper badge (greenkeeper[bot])
 * [[`bba04d75ce`](https://github.com/node-ffi-napi/ref-napi/commit/bba04d75ce)] - chore(package): update dependencies (greenkeeper[bot])
-* [[`0a77d1edde`](https://github.com/node-ffi-napi/ref-napi/commit/0a77d1edde)] - Bump ene-node-addon-api to ^1.1.0 (Anna Henningsen)
+* [[`0a77d1edde`](https://github.com/node-ffi-napi/ref-napi/commit/0a77d1edde)] - Bump node-addon-api to ^1.1.0 (Anna Henningsen)
 * [[`b8bac0aea0`](https://github.com/node-ffi-napi/ref-napi/commit/b8bac0aea0)] - Use full package name in README heading (Anna Henningsen)
 * [[`31bd8454a7`](https://github.com/node-ffi-napi/ref-napi/commit/31bd8454a7)] - Use matching branch name for badges in README.md (Anna Henningsen)
 * [[`46b0db449b`](https://github.com/node-ffi-napi/ref-napi/commit/46b0db449b)] - fix up package name in package.json (Anna Henningsen)
