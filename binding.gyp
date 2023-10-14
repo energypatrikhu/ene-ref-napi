@@ -3,12 +3,12 @@
     'target_name': 'binding',
     'sources': [ 'src/binding.cc' ],
     'include_dirs': [
-      "<!@(node -p \"require('node-addon-api').include\")",
+      "<!@(node -p \"require('ene-node-addon-api').include\")",
       "<!@(node -p \"require('get-symbol-from-current-process-h').include\")",
       "<!@(node -p \"require('./lib/get-paths').include\")",
     ],
     'dependencies': [
-      "<!(node -p \"require('node-addon-api').gyp\")"
+      "<!(node -p \"require('ene-node-addon-api').gyp\")"
     ],
     'cflags!': [ '-fno-exceptions' ],
     'cflags_cc!': [ '-fno-exceptions' ],

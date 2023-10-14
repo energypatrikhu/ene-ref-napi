@@ -33,19 +33,19 @@
 	},
 	"dependencies": {
 		"debug": "^4.1.1",
+		"ene-node-addon-api": "github:energypatrikhu/ene-node-addon-api",
 		"ene-node-gyp-build": "github:energypatrikhu/ene-node-gyp-build",
-		"get-symbol-from-current-process-h": "^1.0.2",
-		"node-addon-api": "^3.0.0"
+		"get-symbol-from-current-process-h": "^1.0.2"
 	},
 	"devDependencies": {
 		"dox": "0.9.0",
+		"ene-weak-napi": "github:energypatrikhu/ene-weak-napi",
 		"highlight.js": "^10.0.0",
 		"jade": "^1.11.0",
 		"marked": "^1.0.0",
 		"mocha": "^7.1.1",
 		"nyc": "^15.0.0",
 		"prebuildify": "^3.0.4",
-		"prebuildify-ci": "^1.0.5",
-		"weak-napi": "^2.0.0"
+		"prebuildify-ci": "^1.0.5"
 	}
 }
